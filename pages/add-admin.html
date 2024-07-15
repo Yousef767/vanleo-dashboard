@@ -86,7 +86,7 @@
             <i class="fa-light fa-gem"></i>
             Items
           </a></li>
-        <li><a class="nLink active" href="./orders.html">
+        <li><a class="nLink" href="./orders.html">
             <i class="fa-light fa-cube"></i>
             Orders
           </a></li>
@@ -101,7 +101,7 @@
             </svg>
             Mail Box
           </a></li>
-          <li><a class="nLink" href="./admins.html">
+          <li><a class="nLink active" href="./admins.html">
             <svg width="22" height="24" viewBox="0 0 22 24" fill="none" xmlns="http://www.w3.org/2000/svg">
               <path d="M8.6835 10.5545C11.3478 10.5545 13.5076 8.39467 13.5076 5.73038C13.5076 3.06609 11.3478 0.90625 8.6835 0.90625C6.01921 0.90625 3.85938 3.06609 3.85938 5.73038C3.85938 8.39467 6.01921 10.5545 8.6835 10.5545Z" fill="white"/>
               <path d="M11.1283 20.9748C10.6256 20.1046 10.726 19.0326 11.3242 18.2733C10.726 17.514 10.6256 16.4431 11.1283 15.5718L11.9088 14.2211C12.3382 13.4772 13.139 13.015 13.9987 13.015C14.1164 13.015 14.2321 13.0237 14.347 13.0401C14.3788 12.961 14.4193 12.8867 14.4589 12.8115C13.9379 12.6059 13.3754 12.4844 12.7839 12.4844H4.58292C2.05604 12.4844 0 14.5404 0 17.0673V20.4442C0 20.8436 0.324181 21.1678 0.723619 21.1678H11.2393L11.1283 20.9748Z" fill="white"/>
@@ -112,7 +112,7 @@
           <li><a class="nLink" href="./users.html">
               <i class="fa-solid fa-user"></i>                                
               Users
-            </a></li>
+            </a></li>>
         <li><a class="nLink" href="./marketing.html">
             <svg width="22" height="20" viewBox="0 0 22 20" fill="none" xmlns="http://www.w3.org/2000/svg">
               <path fill-rule="evenodd" clip-rule="evenodd"
@@ -137,213 +137,38 @@
           </a></li>
       </ul>
     </div>
-
     <div class="mainCont" id="main">
       <!-- Start Main Content -->
       <div class="pageCont">
-        <div class="conta p30">
-          <h3>Orders  : </h3>
+        <div class="conta p30 ">
+          <h3>Add / Edit Admin : </h3>
         </div>
         <div class="conta p30">
-          <div class="wbtns">
-            <button class="btn">Delivered <i class="fa-regular fa-check-circle"></i> </button>
-          </div>
-          <form class="wbtns">
-            <div class="input w430 mra">
+          <form class="form w430 pt20">
+            <div class="input">
+              <span>Admin Name :</span>
+              <input type="text" placeholder="Admin Name">
+            </div>
+            <div class="input">
+              <span>Email :</span>
+              <input type="email" placeholder="Email">
+            </div>
+            <div class="input">
+              <span>Password :</span>
               <div class="select">
-                <input class="oninput" type="search" name="" id="" placeholder="Search.....">
-                <button type="submit" class="fa-solid fa-magnifying-glass"></button>
+                <input type="password" placeholder="Password">
+                <i class="fa-light fa-eye-slash" id="passwordShow"></i>
               </div>
             </div>
+            <button type="sLubmit" class="saveBtn mra">Save </button>
           </form>
-          <div class="taIn">
-            <table class="tg">
-              <thead>
-                <tr>
-                  <th></th>
-                  <th>Order Num.</th>
-                  <th> Order List </th>
-                  <th> Order Status </th>
-                  <th> Payment Status </th>
-                  <th> Total Price </th>
-                  <th> Payment Type </th>
-                  <th> Items Count </th>
-                  <th>Tools</th>
-                </tr>
-              </thead>
-              <tbody>
-                <tr>
-                  <td><input type="checkbox" name="" id=""></td>
-                  <td>1234</td>
-                  <td>
-                    <div class="mw250">
-                      Item1,Item2,Item3,Item4,Item5,Item6
-                    </div>
-                  </td>
-                  <td>
-                    <div class="input i2120">
-                      <div class="select">
-                        <select name="" id="">
-                          <option value="completed">Completed</option>
-                          <option value="notcompleted">Not Completed</option>
-                        </select>
-                        <i class="fa-regular fa-angle-down"></i>
-                      </div>
-                    </div>
-                  </td>
-                  <td>
-                    <div class="input i2120">
-                      <div class="select">
-                        <select name="" id="">
-                          <option value="unpaid">Unpaid</option>
-                          <option value="paid">Paid</option>
-                        </select>
-                        <i class="fa-regular fa-angle-down"></i>
-                      </div>
-                    </div>
-                  </td>
-                  <td>2400 USD</td>
-                  <td>On Delivery</td>
-                  <td>5</td>
-                  <td>
-                    <div class="tools">
-                      <a href="##">
-                        <i class="fa-regular fa-check-circle"></i>
-                      </a>
-                      <a href="./view-order.html">
-                        <i class="fa-regular fa-eye"></i>
-                      </a>
-                      <a href="##">
-                        <img src="../media/icons/delete.png" alt="">
-                      </a>
-                    </div>
-                  </td>
-                </tr>
-                <tr>
-                  <td><input type="checkbox" name="" id=""></td>
-                  <td>1234</td>
-                  <td>
-                    <div class="mw250">
-                      Item1,Item2,Item3,Item4,Item5,Item6
-                    </div>
-                  </td>
-                  <td>
-                    <div class="input i2120">
-                      <div class="select">
-                        <select name="" id="">
-                          <option value="completed">Completed</option>
-                          <option value="notcompleted">Not Completed</option>
-                        </select>
-                        <i class="fa-regular fa-angle-down"></i>
-                      </div>
-                    </div>
-                  </td>
-                  <td>
-                    <div class="input i2120">
-                      <div class="select">
-                        <select name="" id="">
-                          <option value="unpaid">Unpaid</option>
-                          <option value="paid">Paid</option>
-                        </select>
-                        <i class="fa-regular fa-angle-down"></i>
-                      </div>
-                    </div>
-                  </td>
-                  <td>2400 USD</td>
-                  <td>On Delivery</td>
-                  <td>5</td>
-                  <td>
-                    <div class="tools">
-                      <a href="##">
-                        <i class="fa-regular fa-check-circle"></i>
-                      </a>
-                      <a href="./view-order.html">
-                        <i class="fa-regular fa-eye"></i>
-                      </a>
-                      <a href="##">
-                        <img src="../media/icons/delete.png" alt="">
-                      </a>
-                    </div>
-                  </td>
-                </tr>
-                <tr>
-                  <td><input type="checkbox" name="" id=""></td>
-                  <td>1234</td>
-                  <td>
-                    <div class="mw250">
-                      Item1,Item2,Item3,Item4,Item5,Item6
-                    </div>
-                  </td>
-                  <td>
-                    <div class="input i2120">
-                      <div class="select">
-                        <select name="" id="">
-                          <option value="completed">Completed</option>
-                          <option value="notcompleted">Not Completed</option>
-                        </select>
-                        <i class="fa-regular fa-angle-down"></i>
-                      </div>
-                    </div>
-                  </td>
-                  <td>
-                    <div class="input i2120">
-                      <div class="select">
-                        <select name="" id="">
-                          <option value="unpaid">Unpaid</option>
-                          <option value="paid">Paid</option>
-                        </select>
-                        <i class="fa-regular fa-angle-down"></i>
-                      </div>
-                    </div>
-                  </td>
-                  <td>2400 USD</td>
-                  <td>On Delivery</td>
-                  <td>5</td>
-                  <td>
-                    <div class="tools">
-                      <a href="##">
-                        <i class="fa-regular fa-check-circle"></i>
-                      </a>
-                      <a href="./view-order.html">
-                        <i class="fa-regular fa-eye"></i>
-                      </a>
-                      <a href="##">
-                        <img src="../media/icons/delete.png" alt="">
-                      </a>
-                    </div>
-                  </td>
-                </tr>
-              </tbody>
-            </table>
-          </div>
-          <div class="paginationCont">
-            <div class="page">Showing <span>1-20</span> of <span>365</span></div>
-            <div class="paginations">
-              <ul class="spans">
-                <li><a href="##" class="page-link"><img src="../media/icons/arrow-prev.svg" alt=""></a></li>
-                <li><a href="##" class="page-link active">1</a></li>
-                <li><a href="##" class="page-link">2</a></li>
-                <li><a href="##" class="page-link">3</a></li>
-                <li><a href="##" class="page-link">...</a></li>
-                <li><a href="##" class="page-link">13</a></li>
-                <li><a href="##" class="page-link"><img src="../media/icons/arrow-next.svg" alt=""></a></li>
-              </ul>
-            </div>
-          </div>
         </div>
       </div>
       <!-- End Main Content -->
     </div>
-
   </div>
-
-
-
 </body>
 <script src="../js/main.js"></script>
 <script src="../js/links.js"></script>
-<script src="../js/paginations.js"></script>
-<script src="../js/table-drag.js"></script>
-
 
 </html>
